@@ -16,7 +16,7 @@ Open in your browser
 
 ## Languages
 
-HTML, CSS, JS & jQuerry
+HTML, CSS, JS & jQuerry.
 
 ## Preview
 

@@ -20,7 +20,7 @@ HTML, CSS, JS & jQuerry
 
 ## Preview
 
-<img src="https://github.com/KamilBczk/Todo-List/blob/main/img/screen.png" width="400px" alt="img">
+<img src="https://github.com/KamilBczk/Todo-List/blob/main/img/screen.png" width="500px" alt="img">
 
 ## License
 

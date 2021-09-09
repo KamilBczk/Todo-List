@@ -1,0 +1,81 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-style: arial;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    padding-top: 25px;
+}
+
+.todolist_div {
+    padding-top: 50px;
+    width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.todolist {
+    position: relative;
+    list-style: none;
+}
+
+.todolist li {
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+.todolist li::after {
+    content: ' ';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -40px;
+    border-radius: 50%;
+}
+
+.todolist li.active::after {
+    background-color: greenyellow;
+}
+
+.todolist li:last-child {
+    border-bottom: 1px solid #000;
+}
+
+.todolist .delete {
+    content: 'delete';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(100% + 40px);
+}
+
+.add_to_do {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.add_to_do input {
+    display: inline;
+}
+
+.add_to_do p {
+    display: inline;
+    padding-left: 10px;
+}

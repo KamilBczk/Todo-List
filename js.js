@@ -18,6 +18,6 @@ $('.add_to_do p').click(function() {
     $('.add_to_do input').val("");
     append();
 });
-$('.delete').click(function () {
-    
-})
+$('.todolist').delegate('.delete', 'click', function () {
+    $(this).closest('li').remove();
+});
